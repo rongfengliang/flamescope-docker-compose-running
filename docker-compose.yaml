@@ -1,0 +1,8 @@
+version: "3"
+services: 
+  flamescope:
+     image: dalongrong/flamescope
+     ports: 
+     - "5000:5000"
+     volumes: 
+     - "./profiles:/profiles"
